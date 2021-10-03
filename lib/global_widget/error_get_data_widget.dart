@@ -9,12 +9,14 @@ class ErrorGetDataWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Center(
-        child: customText(
-          '$msg',
-          Colors.white,
-          18.0,
-          FontWeight.w400,
-          1,
+        child: Text(
+          'Loading',
+          style: TextStyle(
+            color: Colors.black,
+            fontSize: 18.0,
+            fontWeight: FontWeight.w400,
+          ),
+          maxLines: 1,
         ),
       ),
     );

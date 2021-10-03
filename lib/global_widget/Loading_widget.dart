@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dha_package/utils/constatns.dart';
 
 class LoadingWidget extends StatelessWidget {
   const LoadingWidget({Key? key}) : super(key: key);
@@ -16,12 +15,14 @@ class LoadingWidget extends StatelessWidget {
             SizedBox(height: 10.0),
 
             /// Add custom text...
-            customText(
+            Text(
               'Loading',
-              Colors.white,
-              18.0,
-              FontWeight.w400,
-              1,
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 18.0,
+                fontWeight: FontWeight.w400,
+              ),
+              maxLines: 1,
             ),
           ],
         ),
