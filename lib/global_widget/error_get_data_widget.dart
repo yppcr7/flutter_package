@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dha_package/utils/constatns.dart';
 
 class ErrorGetDataWidget extends StatelessWidget {
   const ErrorGetDataWidget({Key? key, required this.msg}) : super(key: key);
@@ -8,11 +9,12 @@ class ErrorGetDataWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Center(
-        child: Text(
+        child: customText(
           '$msg',
-          style: TextStyle(
-            color: Colors.blue,
-          ),
+          Colors.white,
+          18.0,
+          FontWeight.w400,
+          1,
         ),
       ),
     );
