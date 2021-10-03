@@ -14,6 +14,8 @@ class LoadingWidget extends StatelessWidget {
           children: [
             CircularProgressIndicator(),
             SizedBox(height: 10.0),
+
+            /// Add custom text...
             customText(
               'Loading',
               Colors.white,
