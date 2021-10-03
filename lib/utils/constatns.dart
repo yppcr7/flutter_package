@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-Text customWidget(
+Text customText(
   String text,
   Color textColor,
   double textSize,
