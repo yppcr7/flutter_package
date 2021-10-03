@@ -11,7 +11,7 @@ class ErrorGetDataWidget extends StatelessWidget {
         child: Text(
           '$msg',
           style: TextStyle(
-            color: Colors.orange,
+            color: Colors.blue,
           ),
         ),
       ),
