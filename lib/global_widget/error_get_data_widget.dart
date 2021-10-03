@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dha_package/utils/constatns.dart';
 
 class ErrorGetDataWidget extends StatelessWidget {
   const ErrorGetDataWidget({Key? key, required this.msg}) : super(key: key);
   final String msg;
 
+  /// Add custom text...
   @override
   Widget build(BuildContext context) {
     return Container(
