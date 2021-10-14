@@ -13,7 +13,7 @@ abstract class CustomStyle {
         onPrimary: colorOnPrimary,
         onSurface: colorOnSurfacey,
         textStyle: const TextStyle(
-          fontSize: 14.0,
+          fontSize: 16.0,
           fontStyle: FontStyle.italic,
         ),
         shape: RoundedRectangleBorder(
